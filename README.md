@@ -23,7 +23,7 @@
 - [x] Meat on the bone: 12->6
 - [x] Pantograph: 25->15
 - [x] pocket watch draw 3->2
-- [ ] bird faced urn: max healing per combat: 12
+- [x] bird faced urn: max healing per combat: 12
 
 ### Card generation balancing
 
