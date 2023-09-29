@@ -8,7 +8,7 @@
 - [x] Power Through: 15(20)->13(18) # Blur: 15(20)->12(16) Papa: 13(18) block
 - [x] Shockwave: 3(5)->2(4)
 - [x] Thunderstrike buff? 7(9)-> 9(12)
-- [ ] Self repair: 7(10)->6(9)
+- [x] Self repair: 7(10)->6(9)
 - [ ] Eruption upgrade 9->12 (no energy decost)
 - [ ] Empty fist: 9(14)->8(11)  						# 8(12)	damage
 - [ ] Follow Up: 7(11)->6(9)							# 7(10) damage
