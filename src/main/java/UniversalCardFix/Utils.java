@@ -4,12 +4,17 @@ import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class Utils {
     public static void relicAddToTop(AbstractGameAction action) {
         AbstractDungeon.actionManager.addToTop(action);
+    }
+
+    public static void relicAddToBot(AbstractGameAction action) {
+        AbstractDungeon.actionManager.addToBottom(action);
     }
 
     private static void invoke(String m, Object obj, Object... args) {
@@ -23,6 +28,38 @@ public class Utils {
         try {
             method.invoke(obj, args);
         } catch (IllegalAccessException | InvocationTargetException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static <A> A getField(Object obj, String name) {
+        Field field = null;
+        A result = null;
+        try {
+            field = AbstractCard.class.getDeclaredField(name);
+        } catch (NoSuchFieldException e) {
+            throw new RuntimeException(e);
+        }
+        field.setAccessible(true);
+        try {
+            result = (A) field.get(obj);
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
+        return result;
+    }
+
+    public static <A> void setField(Object obj, String name, A value) {
+        Field field = null;
+        try {
+            field = AbstractCard.class.getDeclaredField(name);
+        } catch (NoSuchFieldException e) {
+            throw new RuntimeException(e);
+        }
+        field.setAccessible(true);
+        try {
+            field.set(obj, value);
+        } catch (IllegalAccessException e) {
             throw new RuntimeException(e);
         }
     }

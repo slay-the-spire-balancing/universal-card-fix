@@ -22,7 +22,7 @@
 - [ ] Tough bandages maybe a change. Any time you play a card that says discard	# dont nerf bandag lol
 - [x] Meat on the bone: 12->6
 - [x] Pantograph: 25->15
-- [ ] pocket watch draw 3->2
+- [x] pocket watch draw 3->2
 - [ ] bird faced urn: max healing per combat: 12
 
 ### Card generation balancing
