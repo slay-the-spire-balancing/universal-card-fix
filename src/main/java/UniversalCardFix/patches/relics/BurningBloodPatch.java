@@ -8,10 +8,12 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.relics.BurningBlood;
 
 public class BurningBloodPatch {
+    private static final int HEALTH_AMT = 4;
+
     @SpirePatch(clz = BurningBlood.class, method = "getUpdatedDescription")
     static class GetUpdatedDescription {
         public static String Replace(BurningBlood __instance) {
-            return __instance.DESCRIPTIONS[0] + 4 + __instance.DESCRIPTIONS[1];
+            return __instance.DESCRIPTIONS[0] + HEALTH_AMT + __instance.DESCRIPTIONS[1];
         }
     }
 
@@ -22,7 +24,7 @@ public class BurningBloodPatch {
             Utils.relicAddToTop(new RelicAboveCreatureAction(AbstractDungeon.player, __instance));
             AbstractPlayer p = AbstractDungeon.player;
             if (p.currentHealth > 0) {
-                p.heal(4);
+                p.heal(HEALTH_AMT);
             }
         }
     }
