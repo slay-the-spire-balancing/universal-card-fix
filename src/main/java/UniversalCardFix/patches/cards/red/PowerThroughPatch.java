@@ -6,14 +6,14 @@ import com.megacrit.cardcrawl.cards.red.PowerThrough;
 
 public class PowerThroughPatch {
     @SpirePatch(clz = PowerThrough.class, method = SpirePatch.CONSTRUCTOR)
-    public static class PowerThroughConstructorPatch {
+    public static class Constructor {
         public static void Postfix(PowerThrough __instance) {
             __instance.baseBlock = 13;
         }
     }
 
     @SpirePatch(clz = PowerThrough.class, method = "upgrade")
-    public static class PowerThroughUpgradePatch {
+    public static class Upgrade {
         public static void Replace(PowerThrough __instance) {
             if (!__instance.upgraded) {
                 Utils.cardUpgradeName(__instance);

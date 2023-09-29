@@ -31,4 +31,10 @@ public class Utils {
         card.baseBlock += amount;
         card.upgradedBlock = true;
     }
+
+    public static void cardUpgradeMagicNumber(AbstractCard card, int amount) {
+        card.baseMagicNumber += amount;
+        card.magicNumber = card.baseMagicNumber;
+        card.upgradedMagicNumber = true;
+    }
 }
