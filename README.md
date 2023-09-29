@@ -10,12 +10,12 @@
 - [x] Thunderstrike buff? 7(9)-> 9(12)
 - [x] Self repair: 7(10)->6(9)
 - [x] Eruption upgrade 9->12 (no energy decost)
-- [ ] Rushdown: draw 1								# draw 1(2), 1 energy
 - [x] Empty fist: 9(14)->8(12) # Blur: 9(14)->8(11) Papa: 8(12)
 - [x] Follow Up: 7(11) -> 7(10) # Blur 7(11)->6(9) Papa: 7(10)
 - [x] Cut: scry 2(3) -> 1(2) # Blur 7(9)->6(9) Papa	1(2), 7(9)
 - [x] Conclude: 12(16)->10(14)
 - [x] Mental Fortress: 4(6)->3(4)
+- [x] Rushdown: draw 1	# Papa: draw 1(2), 1 energy
 - [x] Tantrum nerf: make it a rare
 - [ ] Egg change: eggs add +1 random upgrade of type at fires		#dont nerf eggs lool
 - [ ] Make White Beast a rare relic
