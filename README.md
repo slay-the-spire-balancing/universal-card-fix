@@ -13,9 +13,9 @@
 - [ ] Empty fist: 9(14)->8(11)  						# 8(12)	damage
 - [ ] Follow Up: 7(11)->6(9)							# 7(10) damage
 - [ ] Cut: 7(9)->6(9)									# scry 1(2), 7(9) damage
-- [ ] Conclude: 12(16)->10(14)
 - [ ] Mental Fortress: 4(6)->3(4)
 - [ ] Rushdown: draw 1								# draw 1(2), 1 energy
+- [x] Conclude: 12(16)->10(14)
 - [x] Tantrum nerf: make it a rare
 - [ ] Egg change: eggs add +1 random upgrade of type at fires		#dont nerf eggs lool
 - [ ] Make White Beast a rare relic
