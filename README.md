@@ -20,7 +20,7 @@
 - [ ] Egg change: eggs add +1 random upgrade of type at fires		#dont nerf eggs lool
 - [ ] Make White Beast a rare relic
 - [ ] Tough bandages maybe a change. Any time you play a card that says discard		#dont nerf bandag lol
-- [ ] Meat on the bone: 12->6
+- [x] Meat on the bone: 12->6
 - [ ] Pantograph: 25->15
 - [ ] pocket watch draw 3->2
 - [ ] bird faced urn: max healing per combat: 12
