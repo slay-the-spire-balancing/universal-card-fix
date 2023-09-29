@@ -12,19 +12,27 @@ public class Utils {
         AbstractDungeon.actionManager.addToTop(action);
     }
 
-    public static void cardUpgradeName(AbstractCard card) {
+    private static void invoke(String m, Object obj, Object... args) {
         Method method = null;
         try {
-            method = AbstractCard.class.getDeclaredMethod("upgradeName");
+            method = AbstractCard.class.getDeclaredMethod(m);
         } catch (NoSuchMethodException e) {
             throw new RuntimeException(e);
         }
         method.setAccessible(true);
         try {
-            method.invoke(card);
+            method.invoke(obj, args);
         } catch (IllegalAccessException | InvocationTargetException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public static void cardUpgradeName(AbstractCard card) {
+        invoke("upgradeName", card);
+    }
+
+    public static void cardCreateCardImage(AbstractCard card) {
+        invoke("createCardImage", card);
     }
 
     public static void cardUpgradeBlock(AbstractCard card, int amount) {
@@ -42,4 +50,5 @@ public class Utils {
         card.magicNumber = card.baseMagicNumber;
         card.upgradedMagicNumber = true;
     }
+
 }

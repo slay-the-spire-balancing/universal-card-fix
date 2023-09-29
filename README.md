@@ -16,7 +16,7 @@
 - [ ] Conclude: 12(16)->10(14)
 - [ ] Mental Fortress: 4(6)->3(4)
 - [ ] Rushdown: draw 1								# draw 1(2), 1 energy
-- [ ] Tantrum nerf: make it a rare
+- [x] Tantrum nerf: make it a rare
 - [ ] Egg change: eggs add +1 random upgrade of type at fires		#dont nerf eggs lool
 - [ ] Make White Beast a rare relic
 - [ ] Tough bandages maybe a change. Any time you play a card that says discard		#dont nerf bandag lol
