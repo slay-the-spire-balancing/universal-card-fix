@@ -9,7 +9,7 @@
 - [x] Shockwave: 3(5)->2(4)
 - [x] Thunderstrike buff? 7(9)-> 9(12)
 - [x] Self repair: 7(10)->6(9)
-- [ ] Eruption upgrade 9->12 (no energy decost)
+- [x] Eruption upgrade 9->12 (no energy decost)
 - [ ] Empty fist: 9(14)->8(11)  						# 8(12)	damage
 - [ ] Follow Up: 7(11)->6(9)							# 7(10) damage
 - [ ] Cut: 7(9)->6(9)									# scry 1(2), 7(9) damage
