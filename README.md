@@ -5,7 +5,7 @@
 ### Card/Relic balancing
 
 - [x] Burning Blood: 6->4 heal
-- [ ] Power Through: 15(20)->12(16)					#13(18) block
+- [x] Power Through: 15(20)->13(18) # Blur: 15(20)->12(16) Papa: 13(18) block
 - [ ] Shockwave: 3(5)->2(4)
 - [ ] Thunderstrike buff? 7(9)-> 9(12)
 - [ ] Self repair: 7(10)->6(9)
