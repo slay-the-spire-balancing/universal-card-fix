@@ -15,7 +15,7 @@ public class MentalFortressPatch {
 
     @SpirePatch(clz = MentalFortress.class, method = "upgrade")
     public static class Upgrade {
-        public static void Postfix(MentalFortress __instance) {
+        public static void Replace(MentalFortress __instance) {
             if (!__instance.upgraded) {
                 Utils.cardUpgradeName(__instance);
                 Utils.cardUpgradeMagicNumber(__instance, 1);

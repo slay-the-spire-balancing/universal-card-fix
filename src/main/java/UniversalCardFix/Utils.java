@@ -17,10 +17,10 @@ public class Utils {
         AbstractDungeon.actionManager.addToBottom(action);
     }
 
-    private static void invoke(String m, Object obj, Object... args) {
+    private static void invoke(Object obj, Class<?> clz, String m, Object... args) {
         Method method = null;
         try {
-            method = AbstractCard.class.getDeclaredMethod(m);
+            method = clz.getDeclaredMethod(m);
         } catch (NoSuchMethodException e) {
             throw new RuntimeException(e);
         }
@@ -32,11 +32,11 @@ public class Utils {
         }
     }
 
-    public static <A> A getField(Object obj, String name) {
+    public static <A> A getField(Object obj, Class<?> clz, String name) {
         Field field = null;
         A result = null;
         try {
-            field = AbstractCard.class.getDeclaredField(name);
+            field = clz.getDeclaredField(name);
         } catch (NoSuchFieldException e) {
             throw new RuntimeException(e);
         }
@@ -49,10 +49,10 @@ public class Utils {
         return result;
     }
 
-    public static <A> void setField(Object obj, String name, A value) {
+    public static <A> void setField(Object obj, Class<?> clz, String name, A value) {
         Field field = null;
         try {
-            field = AbstractCard.class.getDeclaredField(name);
+            field = obj.getClass().getDeclaredField(name);
         } catch (NoSuchFieldException e) {
             throw new RuntimeException(e);
         }
@@ -65,11 +65,11 @@ public class Utils {
     }
 
     public static void cardUpgradeName(AbstractCard card) {
-        invoke("upgradeName", card);
+        invoke(card, AbstractCard.class, "upgradeName");
     }
 
     public static void cardCreateCardImage(AbstractCard card) {
-        invoke("createCardImage", card);
+        invoke(card, AbstractCard.class, "createCardImage");
     }
 
     public static void cardUpgradeBlock(AbstractCard card, int amount) {

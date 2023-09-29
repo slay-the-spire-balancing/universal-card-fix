@@ -19,12 +19,12 @@ public class PocketWatchPatch {
     @SpirePatch(clz = Pocketwatch.class, method = "atTurnStartPostDraw")
     public static class AtTurnStartPostDraw {
         public static void Replace(Pocketwatch __instance) {
-            boolean firstTurn = Utils.getField(__instance, "firstTurn");
+            boolean firstTurn = Utils.getField(__instance, Pocketwatch.class, "firstTurn");
 
             if (__instance.counter <= 3 && !firstTurn) {
-                Utils.relicAddToBot(new DrawCardAction(AbstractDungeon.player, 3));
+                Utils.relicAddToBot(new DrawCardAction(AbstractDungeon.player, AMT));
             } else {
-                Utils.setField(__instance, "firstTurn", false);
+                Utils.setField(__instance, Pocketwatch.class, "firstTurn", false);
             }
 
             __instance.counter = 0;
