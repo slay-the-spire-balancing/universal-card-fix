@@ -15,6 +15,7 @@
         buildInputs = [
           jdk
           pkgs.gradle
+          pkgs.cfr
         ];
 
         shellHook = ''
