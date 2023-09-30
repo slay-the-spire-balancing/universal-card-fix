@@ -35,7 +35,6 @@
 - [X] Empty Fist: 9(14)->8(11)
 - [X] Cut Through Fate: 7(9)->6(9)
 - [X] Conclude: 12(16)->10(14)
-- [X] Follow Up: 7(11) -> 7(1)
 - [X] Mental Fortress: 4(6)->3(4)
 - [ ] Halt: Upgrades to 12 not 14
 - [ ] Flurry of Blows: 4(6)->3(6)
