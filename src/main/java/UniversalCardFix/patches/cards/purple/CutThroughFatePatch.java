@@ -7,8 +7,18 @@ public class CutThroughFatePatch {
     @SpirePatch(clz = CutThroughFate.class, method = SpirePatch.CONSTRUCTOR)
     public static class Constructor {
         public static void Postfix(CutThroughFate __instance) {
-            __instance.baseMagicNumber = 1;
-            __instance.magicNumber = 1;
+            __instance.baseDamage = 6;
         }
     }
+
+    @SpirePatch(clz = CutThroughFate.class, method = "upgrade")
+    public static class Upgrade {
+        public static void Replace(ThunderStrike __instance) {
+            if (!__instance.upgraded) {
+                Utils.cardUpgradeName(__instance);
+                Utils.cardUpgradeDamage(__instance, 3);
+            }
+        }
+    }
+
 }

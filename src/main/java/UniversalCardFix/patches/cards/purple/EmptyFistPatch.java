@@ -17,7 +17,7 @@ public class EmptyFistPatch {
         public static void Replace(EmptyFist __instance) {
             if (!__instance.upgraded) {
                 Utils.cardUpgradeName(__instance);
-                Utils.cardUpgradeDamage(__instance, 4);
+                Utils.cardUpgradeDamage(__instance, 3);
             }
         }
     }
