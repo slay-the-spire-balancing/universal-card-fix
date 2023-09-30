@@ -8,7 +8,7 @@
 - [ ] Riddle with Holes upgrade->3x7
 ### Relics
 - [ ] Tough Bandages: Any time you play a card that says discard, you gain block
-- [ ] Paper Crane 40%->34%
+- [X] Paper Crane 40%->34%
 
 ## IronClad
 ### Cards
