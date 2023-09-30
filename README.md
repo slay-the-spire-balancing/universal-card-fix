@@ -1,48 +1,71 @@
-# universal-card-fix
+# Universal Card Fix (UCF)
 
-## Proposed changes
+## Silent
+### Cards
+- [ ] Nightmare: No longer Nilrys. Copies generated are Ethereal
+- [X] Alchemize: Add ethereal tag
+- [ ] Heel Hook (5)8 -> 6(9)
+- [ ] Riddle with Holes upgrade->3x7
+### Relics
+- [ ] Tough Bandages: Any time you play a card that says discard, you gain block
+- [ ] Paper Crane 40%->34%
 
-### Card/Relic balancing
+## IronClad
+### Cards
+- [X] Power Through: 15(20)->13(17)
+- [ ] Corruption: reduce energy cost of all skills by 1
+- [X] Shockwave: 3(5)->2(4)
+- [ ] Remove Exhume from random card generation
+- [ ] Rampage base damage 8->9, upgrade +8->+9
+- [ ] Heavy blade base damage 14->16
+### Relics
+- [X] Burning Blood: 6->4 heal
 
-- [x] Burning Blood: 6->4 heal
-- [x] Power Through: 15(20)->13(18) # Blur: 15(20)->12(16) Papa: 13(18) block
-- [x] Shockwave: 3(5)->2(4)
-- [x] Thunderstrike buff? 7(9)-> 9(12)
-- [x] Self repair: 7(10)->6(9)
-- [x] Eruption upgrade 9->12 (no energy decost)
-- [x] Empty fist: 9(14)->8(12) # Blur: 9(14)->8(11) Papa: 8(12)
-- [x] Follow Up: 7(11) -> 7(10) # Blur 7(11)->6(9) Papa: 7(10)
-- [x] Cut: scry 2(3) -> 1(2) # Blur 7(9)->6(9) Papa	1(2), 7(9)
-- [x] Conclude: 12(16)->10(14)
-- [x] Mental Fortress: 4(6)->3(4)
-- [x] Rushdown: draw 1	# Papa: draw 1(2), 1 energy
-- [x] Tantrum nerf: make it a rare
-- [ ] Egg change: eggs add +1 random upgrade of type at fires # dont nerf eggs lool
-- [x] White Beast: Uncommon -> Rare
-- [ ] Tough bandages maybe a change. Any time you play a card that says discard	# dont nerf bandag lol
-- [x] Meat on the bone: 12->6
-- [x] Pantograph: 25->15
-- [x] pocket watch draw 3->2
-- [x] bird faced urn: max healing per combat: 12
+## Defect
+### Cards
+- [X] Self Repair: 7(10)->6(9)
+- [ ] Claw base damage 3(5)->4(6), stacking damage 2->3
+- [ ] Melter -> 11(15)
+- [X] Thunder Strike 7(9)-> 9(12)
+### Relics
 
-### Card generation balancing
+## Watcher
+### Cards
+- [X] Eruption upgrade 9->12 (no energy decost)
+- [X] Empty Fist: 9(14)->8(11)
+- [X] Cut Through Fate: 7(9)->6(9)
+- [X] Conclude: 12(16)->10(14)
+- [X] Follow Up: 7(11) -> 7(1)
+- [X] Mental Fortress: 4(6)->3(4)
+- [ ] Halt: Upgrades to 12 not 14
+- [ ] Flurry of Blows: 4(6)->3(6)
+- [X] Rushdown: 1 energy, upgrade to draw 2
+- [X] Tantrum nerf: make it a rare
+### Relics
 
-- [ ] Nightmare: No longer Nilrys, 3->2 copy 			#keep 3 copies
-- [ ] Remove HoG and Exhume from card generation
+## Relics
+- [ ] Toxic/Frozen/Molten Egg change: eggs add +1 random upgrade of type at fires
+- [X] Meat on the Bone: 12->6
+- [X] Pantograph: 25->15
+- [X] Pocketwatch: 3->2
+- [ ] White Beast Statue: choose between 2 potions whenever a potion drops
+- [ ] Preserved Insect: 25->20
+- [ ] Bird-Faced Urn: Max 12 health healed per combat
 
-### Event balancing
-
+## Events
 - [ ] Ritual Dagger event does 9 damage, not 6
-- [ ] Thwack = double nob? fight harder				# NOBBERS
 - [ ] Upgrade strikes/defend event nerf (upgrade 4 random base cards)
-- [ ] Bite event change? Only heal first time they are played?
-- [ ] Match & keep can't be curse 1st card			# LETEM CURSE ME
+- [ ] Thwack = double nob. fight harder
+- [ ] Bite event change. Healing reduces by 1 every time they are played
+- [ ] Match & keep can't be curse 1st card
 - [ ] Make spin the wheel event optional to skip
-
-### Misc
-
-- [ ] searing blow with egg can show up +2
-- [ ] Adjust floor + relic drop rates
-- [ ] Revert shop relic price change					# make them ~200-220
+- [ ] Big Fish: banana heal from 1/3 -> 1/4
 - [ ] Remove portal event
-- [ ] RNGFix
+
+## Misc
+- [ ] Hand of Greed: remove from random card generation
+- [ ] Fix relic floor number spawns
+
+## Revert (stuff to undo, either from us or Megacrit)
+- [ ] White Beast Statue: Turn back to Uncommon
+- [ ] shop relic price change that came in Watcher patch # make them ~200-220
