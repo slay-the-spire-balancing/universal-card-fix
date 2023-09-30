@@ -4,7 +4,7 @@
 ### Cards
 - [ ] Nightmare: No longer Nilrys. Copies generated are Ethereal
 - [X] Alchemize: Add ethereal tag
-- [ ] Heel Hook (5)8 -> 6(9)
+- [X] Heel Hook 8(5) -> 9(6)
 - [ ] Riddle with Holes upgrade->3x7
 ### Relics
 - [ ] Tough Bandages: Any time you play a card that says discard, you gain block
