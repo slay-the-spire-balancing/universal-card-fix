@@ -17,7 +17,7 @@ public class PowerThroughPatch {
         public static void Replace(PowerThrough __instance) {
             if (!__instance.upgraded) {
                 Utils.cardUpgradeName(__instance);
-                Utils.cardUpgradeBlock(__instance, 5);
+                Utils.cardUpgradeBlock(__instance, 4);
             }
         }
     }
