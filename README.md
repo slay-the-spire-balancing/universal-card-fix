@@ -5,7 +5,7 @@
 - [ ] Nightmare: No longer Nilrys. Copies generated are Ethereal
 - [X] Alchemize: Add ethereal tag
 - [X] Heel Hook 5(8) -> 6(9)
-- [ ] Riddle with Holes upgrade->3x7
+- [X] Riddle with Holes upgrade->3x7
 ### Relics
 - [ ] Tough Bandages: Any time you play a card that says discard, you gain block
 - [X] Paper Crane 40%->34%
@@ -49,7 +49,7 @@
 - [X] Pocketwatch: 3->2
 - [ ] White Beast Statue: choose between 2 potions whenever a potion drops
 - [ ] Preserved Insect: 25->20
-- [ ] Bird-Faced Urn: Max 12 health healed per combat
+- [X] Bird-Faced Urn: Max 12 health healed per combat
 
 ## Events
 - [ ] Ritual Dagger event does 9 damage, not 6
