@@ -62,7 +62,7 @@
 - [ ] Remove portal event
 
 ## Misc
-- [ ] Hand of Greed: remove from random card generation
+- [X] Hand of Greed: remove from random card generation
 - [ ] Fix relic floor number spawns
 
 ## Revert (stuff to undo, either from us or Megacrit)
