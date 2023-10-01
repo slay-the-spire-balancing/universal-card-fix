@@ -16,7 +16,7 @@
 - [ ] Corruption: reduce energy cost of all skills by 1
 - [X] Shockwave: 3(5)->2(4)
 - [X] Remove Exhume from random card generation
-- [ ] Rampage base damage 8->9, upgrade +8->+9
+- [X] Rampage base damage 8->9, upgrade +8->+9
 - [ ] Heavy blade base damage 14->16
 ### Relics
 - [X] Burning Blood: 6->4 heal
