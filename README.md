@@ -25,7 +25,7 @@
 ### Cards
 - [X] Self Repair: 7(10)->6(9)
 - [X] Claw base damage 3(5)->4(6), stacking damage 2->3
-- [ ] Melter -> 11(15)
+- [X] Melter -> 11(15)
 - [X] Thunder Strike 7(9)-> 9(12)
 ### Relics
 
