@@ -36,7 +36,7 @@
 - [X] Cut Through Fate: 7(9)->6(9)
 - [X] Conclude: 12(16)->10(14)
 - [X] Mental Fortress: 4(6)->3(4)
-- [ ] Halt: Upgrades to 12 not 14
+- [X] Halt: Upgrades to 12 not 14
 - [X] Flurry of Blows: 4(6)->3(6)
 - [X] Rushdown: 1 energy, upgrade to draw 2
 - [X] Tantrum nerf: make it a rare
