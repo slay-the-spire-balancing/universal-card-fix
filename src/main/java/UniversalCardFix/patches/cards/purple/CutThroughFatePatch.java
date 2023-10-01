@@ -18,6 +18,7 @@ public class CutThroughFatePatch {
             if (!__instance.upgraded) {
                 Utils.cardUpgradeName(__instance);
                 Utils.cardUpgradeDamage(__instance, 3);
+                Utils.cardUpgradeMagicNumber(__instance, 1);
             }
         }
     }
