@@ -17,7 +17,7 @@ public class Utils {
         AbstractDungeon.actionManager.addToBottom(action);
     }
 
-    private static void invoke(Object obj, Class<?> clz, String m, Object... args) {
+    public static void invoke(Object obj, Class<?> clz, String m, Object... args) {
         Method method = null;
         try {
             method = clz.getDeclaredMethod(m);

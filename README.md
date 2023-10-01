@@ -57,7 +57,7 @@
 - [ ] Thwack = double nob. fight harder
 - [ ] Bite event change. Healing reduces by 1 every time they are played
 - [ ] Match & keep can't be curse 1st card
-- [ ] Make spin the wheel event optional to skip
+- [x] Make spin the wheel event optional to skip
 - [ ] Big Fish: banana heal from 1/3 -> 1/4
 - [ ] Remove portal event
 
