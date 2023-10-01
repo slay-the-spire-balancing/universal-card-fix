@@ -67,4 +67,4 @@
 
 ## Revert (stuff to undo, either from us or Megacrit)
 - [ ] White Beast Statue: Turn back to Uncommon
-- [ ] shop relic price change that came in Watcher patch # make them ~200-220
+- [X] shop relic price change that came in Watcher patch # make them ~200-220
