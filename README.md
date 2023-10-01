@@ -54,7 +54,7 @@
 ## Events
 - [ ] Ritual Dagger event does 9 damage, not 6
 - [ ] Upgrade strikes/defend event nerf (upgrade 4 random base cards)
-- [ ] Thwack = double nob. fight harder
+- [x] Thwack = double nob. fight harder
 - [ ] Bite event change. Healing reduces by 1 every time they are played
 - [ ] Match & keep can't be curse 1st card
 - [x] Make spin the wheel event optional to skip
