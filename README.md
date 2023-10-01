@@ -15,7 +15,7 @@
 - [X] Power Through: 15(20)->13(17)
 - [ ] Corruption: reduce energy cost of all skills by 1
 - [X] Shockwave: 3(5)->2(4)
-- [ ] Remove Exhume from random card generation
+- [X] Remove Exhume from random card generation
 - [ ] Rampage base damage 8->9, upgrade +8->+9
 - [ ] Heavy blade base damage 14->16
 ### Relics
