@@ -48,7 +48,7 @@
 - [X] Pantograph: 25->15
 - [X] Pocketwatch: 3->2
 - [ ] White Beast Statue: choose between 2 potions whenever a potion drops
-- [ ] Preserved Insect: 25->20
+- [X] Preserved Insect: 25->20
 - [X] Bird-Faced Urn: Max 12 health healed per combat
 
 ## Events
