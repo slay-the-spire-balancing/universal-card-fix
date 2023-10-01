@@ -1,5 +1,12 @@
 # Universal Card Fix (UCF)
 
+## Installation
+
+- Requires ModTheSpire and BaseMod (you can find them on the Steam workshop!).
+- Download the latest version of UniversalCardFix.jar from the [releases page](https://github.com/slay-the-spire-balancing/universal-card-fix/releases)
+- Place UniversalCardFix.jar in your slay the spire mods folder. It should be located at: `some-path/steam/steamapps/common/SlayTheSpire/mods`. If the `mods` folder doesn't exist you can just create it.
+
+
 ## Silent
 ### Cards
 - [X] Nightmare: No longer Nilrys. Copies generated are Ethereal
