@@ -2,7 +2,7 @@
 
 ## Silent
 ### Cards
-- [ ] Nightmare: No longer Nilrys. Copies generated are Ethereal
+- [X] Nightmare: No longer Nilrys. Copies generated are Ethereal
 - [X] Alchemize: Add ethereal tag
 - [X] Heel Hook 5(8) -> 6(9)
 - [X] Riddle with Holes upgrade->3x7
