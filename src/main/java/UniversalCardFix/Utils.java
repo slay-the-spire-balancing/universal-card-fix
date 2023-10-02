@@ -8,6 +8,8 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+import org.apache.logging.log4j.Logger;
+
 public class Utils {
     public static void relicAddToTop(AbstractGameAction action) {
         AbstractDungeon.actionManager.addToTop(action);
@@ -88,4 +90,10 @@ public class Utils {
         card.upgradedMagicNumber = true;
     }
 
+    public static void corruptionCostModify(Logger logger, AbstractCard card) {
+        logger.info("modifying: " + card.name);
+        logger.info("costs before: cost = " + card.cost + ", costForTurn = " + card.costForTurn);
+        card.modifyCostForCombat(-1);
+        logger.info("costs after: cost = " + card.cost + ", costForTurn = " + card.costForTurn);
+    }
 }
