@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.rooms.AbstractRoom;
 
 @SpireInitializer
 public class UniversalCardFix implements PostInitializeSubscriber, OnStartBattleSubscriber {
+
     public static int birdFacedUrnHealedTimes = 0;
 
     public UniversalCardFix() {
@@ -24,14 +25,13 @@ public class UniversalCardFix implements PostInitializeSubscriber, OnStartBattle
 
     @Override
     public void receivePostInitialize() {
+        BaseMod.addTopPanelItem(new TopPanel());
         ModPanel settingsPanel = new ModPanel();
-        BaseMod.registerModBadge(
-                ImageMaster.loadImage("UniversalCardFix/modBadge.png"),
+        BaseMod.registerModBadge(ImageMaster.loadImage("UniversalCardFix/modBadge.png"),
                 "UniversalCardFix",
                 "vmService, aljce, chessai",
                 "Community balance patch",
-                settingsPanel
-        );
+                settingsPanel);
     }
 
     @Override
