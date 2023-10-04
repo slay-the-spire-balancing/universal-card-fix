@@ -3,7 +3,7 @@
   "name": "Universal Card Fix",
   "author_list": ["vmService", "aljce", "chessai"],
   "description": "Community balancing patch",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "sts_version": "12-18-2022",
   "mts_version": "3.6.3"
 }

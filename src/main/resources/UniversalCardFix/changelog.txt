@@ -1,3 +1,7 @@
+10-04-2023 (UCF v0.3.2)
+QoL
+- Change logs added to patch notes screen
+
 10-04-2023 (UCF v0.3.1)
 QoL
 - Add mod badge
