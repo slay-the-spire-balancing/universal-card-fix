@@ -8,9 +8,9 @@ public class ClawPatch {
     @SpirePatch(clz = Claw.class, method = SpirePatch.CONSTRUCTOR)
     public static class Constructor {
         public static void Postfix(Claw __instance) {
-            __instance.baseDamage = 5;
-            __instance.baseMagicNumber = 3;
-            __instance.magicNumber = 3;
+            __instance.baseDamage = 4;
+            __instance.baseMagicNumber = 2;
+            __instance.magicNumber = 2;
         }
     }
 
@@ -19,7 +19,8 @@ public class ClawPatch {
         public static void Replace(Claw __instance) {
             if (!__instance.upgraded) {
                 Utils.cardUpgradeName(__instance);
-                Utils.cardUpgradeDamage(__instance, 1);
+                Utils.cardUpgradeDamage(__instance, 2);
+                Utils.cardUpgradeMagicNumber(__instance, 1);
             }
         }
     }
