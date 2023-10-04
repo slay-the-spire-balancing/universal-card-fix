@@ -8,7 +8,7 @@ public class CutThroughFatePatch {
     @SpirePatch(clz = CutThroughFate.class, method = SpirePatch.CONSTRUCTOR)
     public static class Constructor {
         public static void Postfix(CutThroughFate __instance) {
-            __instance.baseDamage = 6;
+            __instance.baseDamage = 5;
         }
     }
 
