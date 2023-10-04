@@ -1,5 +1,16 @@
 # Universal Card Fix (UCF)
 
+UCF is a community-made patch with the primary purpose of creating a more
+compelling and dynamic end-state for high-level Slay the Spire while being as faithful to the base game as possible.
+Examples of problems we are trying to address include: early game snowballs, over centralized strategies, excessive
+healing which eliminates the need for accurate play, and events which have little to no player agency. Included in the
+patch are also a handful of minor buffs to cards which have fallen out of the meta-game (except for extremely rare niche
+cases), in the hope that they become viable outs more often.
+
+UCF is -not- interested in making the game harder for the sake of being hard, and thus pushing win-rates down
+artificially. Nonetheless, we expect this patch to be more difficult than the base game, if only because it reduces the
+number of free wins that players come across as a result of snowball starts becoming less common.
+
 ## Installation
 
 - Requires ModTheSpire and BaseMod (you can find them on the Steam workshop!).
