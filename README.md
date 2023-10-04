@@ -65,7 +65,7 @@ number of free wins that players come across as a result of snowball starts beco
 
 - [X] Eruption upgrade 9->12 (no energy decost)
 - [X] Empty Fist: 9(14)->8(11)
-- [X] Cut Through Fate: 7(9)->6(9)
+- [X] Cut Through Fate: 7(9)->5(8)
 - [X] Conclude: 12(16)->10(14)
 - [X] Mental Fortress: 4(6)->3(4)
 - [X] Halt: Upgrades to 12 not 14
