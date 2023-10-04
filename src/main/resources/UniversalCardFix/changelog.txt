@@ -1,0 +1,63 @@
+10-04-2023 (UCF v0.3.1)
+QoL
+- Add mod badge
+- Add top panel icon
+
+10-04-2023 (UCF v0.3.0)
+Defect
+Cards
+- Claw: damage 5(6)->4(6), stacking damage 3(3)->2(3)
+
+10-04-2023 (UCF v0.2.0)
+Watcher
+Cards
+- Cut Through Fate: 6(9)->5(8)
+
+09-29-2023 (UCF v0.0.2)
+Ironclad
+Cards
+- Power Through: 15(20)->13(17)
+- Shockwave: 3(5)->2(4)
+- Remove Exhume from random card generation
+- Rampage base damage 8->9, upgrade +8->+9
+- Heavy blade base damage 14->16
+Relics
+- Burning Blood: 6->4 heal
+Silent
+Cards
+- Nightmare: Removed from in combat generation. Copies generated are Ethereal
+- Alchemize: Add ethereal tag
+- Heel Hook 5(8) -> 6(9)
+- Riddle with Holes upgrade->3x7
+Relics
+- Paper Crane 40%->34%
+Defect
+Cards
+- Self Repair: 7(10)->6(9)
+- Claw base damage 3(5)->4(6), stacking damage 2->3
+- Melter -> 11(15)
+- Thunder Strike 7(9)-> 9(12)
+Watcher
+Cards
+- Eruption upgrade 9->12 (no energy decost)
+- Empty Fist: 9(14)->8(11)
+- Cut Through Fate: 7(9)->6(9)
+- Conclude: 12(16)->10(14)
+- Mental Fortress: 4(6)->3(4)
+- Halt: Upgrades to 12 not 14
+- Flurry of Blows: 4(6)->3(6)
+- Rushdown: 1 energy, upgrade to draw 2
+- Tantrum nerf: make it a rare
+Relics
+- Meat on the Bone: 12->6
+- Pantograph: 25->15
+- Pocketwatch: 3->2
+- Preserved Insect: 25->20
+- Bird-Faced Urn: Max 12 health healed per combat
+- White beast statue: rarity uncommon -> rare
+Events
+- Colosseum Nobs: Fight replaced with 2 nobs
+- Wheel of change: Add [Leave] Button
+Misc
+- Hand of Greed: remove from random card generation
+- shop relic price change that came in Watcher patch # make them ~200-220
