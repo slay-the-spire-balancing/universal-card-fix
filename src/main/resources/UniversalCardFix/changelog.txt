@@ -1,3 +1,8 @@
+10-04-2023 (UCF v0.4.0)
+Watcher
+Cards
+- Crescendo: Make it an uncommon
+
 10-04-2023 (UCF v0.3.2)
 QoL
 - Change logs added to patch notes screen
