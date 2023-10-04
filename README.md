@@ -72,6 +72,7 @@ number of free wins that players come across as a result of snowball starts beco
 - [X] Flurry of Blows: 4(6)->3(6)
 - [X] Rushdown: 1 energy, upgrade to draw 2
 - [X] Tantrum nerf: make it a rare
+- [X] Crescendo: make it an uncommon
 
 ### Relics
 
