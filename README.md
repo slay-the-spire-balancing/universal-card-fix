@@ -95,7 +95,7 @@ number of free wins that players come across as a result of snowball starts beco
 - [ ] Match & keep can't be curse 1st card
 - [x] Make spin the wheel event optional to skip
 - [ ] Big Fish: banana heal from 1/3 -> 1/4
-- [ ] Remove portal event
+- [x] Remove portal event
 
 ## Misc
 
